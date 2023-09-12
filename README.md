@@ -1,5 +1,9 @@
-# LearningCenter
+# LearningCenter Client App
 
+## Summary
+ACME Learning Center Application, illustrating CRUD behavior and in-app navigation, with Angular Material and Angular Router. It also uses a JSON Server Fake API.
+
+## About Framework
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
