@@ -14,10 +14,11 @@ import {MatTableModule} from "@angular/material/table";
 import {MatSortModule} from "@angular/material/sort";
 import {MatIconModule} from "@angular/material/icon";
 import {MatPaginatorModule} from "@angular/material/paginator";
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 @NgModule({
   declarations: [AppComponent, StudentsComponent, StudentFormComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, MatInputModule, FormsModule, MatButtonModule, MatTableModule, MatSortModule, MatIconModule, MatPaginatorModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, MatInputModule, FormsModule, MatButtonModule, MatTableModule, MatSortModule, MatIconModule, MatPaginatorModule, MatToolbarModule],
   providers: [StudentsService],
   bootstrap: [AppComponent]
 })
