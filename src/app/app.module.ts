@@ -16,9 +16,10 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatPaginatorModule} from "@angular/material/paginator";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { AboutComponent } from './public/pages/about/about.component';
+import { HomeComponent } from './public/pages/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, StudentsComponent, StudentFormComponent, AboutComponent],
+  declarations: [AppComponent, StudentsComponent, StudentFormComponent, AboutComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, MatInputModule, FormsModule, MatButtonModule, MatTableModule, MatSortModule, MatIconModule, MatPaginatorModule, MatToolbarModule],
   providers: [StudentsService],
   bootstrap: [AppComponent]
