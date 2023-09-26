@@ -17,9 +17,10 @@ import {MatPaginatorModule} from "@angular/material/paginator";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { AboutComponent } from './public/pages/about/about.component';
 import { HomeComponent } from './public/pages/home/home.component';
+import { PageNotFoundComponent } from './public/pages/page-not-found/page-not-found.component';
 
 @NgModule({
-  declarations: [AppComponent, StudentsComponent, StudentFormComponent, AboutComponent, HomeComponent],
+  declarations: [AppComponent, StudentsComponent, StudentFormComponent, AboutComponent, HomeComponent, PageNotFoundComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, MatInputModule, FormsModule, MatButtonModule, MatTableModule, MatSortModule, MatIconModule, MatPaginatorModule, MatToolbarModule],
   providers: [StudentsService],
   bootstrap: [AppComponent]
